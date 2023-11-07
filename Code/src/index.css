@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(139, 111, 85); 
+  font-family: 'Open Sans', sans-serif; 
+  color: rgb(46, 22, 3);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh;
+  font-size: 16px;
+  line-height: 1.6;
+  background-image: url('bg.jpeg');
+background-size: cover;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    
+}
+
+button{
+  transition: background-color 0.3s, color 0.3s;
+  background-color: rgb(180, 158, 120);
+  color: #341902;
+}
+
+button:hover {
+  background-color: rgb(101, 95, 65);
+  color: #3f1d01;
+}
+
+@media (max-width: 768px) {
+  
+}
+
+
+
