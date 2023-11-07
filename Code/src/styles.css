@@ -1,0 +1,42 @@
+/* Default styles for all screen sizes */
+
+/* Styles for screens with a maximum width of 768px (typical mobile) */
+@media (max-width: 768px) {
+    /* Adjusted styles for smaller screens (e.g., mobile) */
+    .element {
+      font-size: 16px;
+      padding: 10px;
+    }
+}
+  
+/* Styles for screens with a minimum width of 769px and a maximum width of 1024px (typical tablet) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    /* Adjusted styles for medium-sized screens (e.g., tablets) */
+    .element {
+      font-size: 20px;
+      padding: 20px;
+    }
+}
+  
+/* Styles for screens with a minimum width of 1025px (typical desktop) */
+@media (min-width: 1025px) {
+    /* Adjusted styles for larger screens (e.g., desktop) */
+    .element {
+      font-size: 24px;
+      padding: 30px;
+    }
+}
+
+/* Style for the upload button */
+.upload-button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* No border */
+    cursor: pointer; /* Show a pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.upload-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
