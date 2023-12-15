@@ -8,6 +8,7 @@ const initialState = {
   uploadedPDF: null,
 };
 
+
 // Action types
 const SELECT_PAGE = 'SELECT_PAGE';
 const UPLOAD_PDF = 'UPLOAD_PDF';
