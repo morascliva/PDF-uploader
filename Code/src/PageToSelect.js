@@ -1,6 +1,3 @@
-
-
-
 import React from 'react';
 import { useAppState } from './AppStateContext';
 import './index.css';
